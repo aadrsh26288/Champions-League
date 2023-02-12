@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "east";
+  src: url(./Fonts/Eastman-Bold.otf)
+}
+
+@font-face {
+  font-family: "normal";
+  src: url(./Fonts/Fontspring-DEMO-engram-regular.otf)
+}
+
+@font-face {
+  font-family: "eastregular";
+  src: url(./Fonts/Eastman-Regular.otf)
+}
+
+@font-face {
+  font-family: "eastmedium";
+  src: url(./Fonts/Eastman-Medium.otf)
+}
+
+.eastman {
+  font-family: 'east';
+}
+
+.er {
+  font-family: 'eastregular';
+}
+
+.em {
+  font-family: 'eastmedium';
+}
+
+.normal {
+  font-family: 'normal'
+}
+
+.bgg {
+  background-image: url(./Images/background.png);
+}
+
+.t {
+  background-color: rgb(#ffff);
+  opacity: 0.6;
+}
+
+.modal {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 30%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .container {
+    max-width: 40%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .container {
+    max-width: 45%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    max-width: 50%;
+  }
+}
+
+
+@media (min-width: 496px) and (max-width: 768px) {
+  .container {
+    max-width: 65%;
+  }
+}
+@media (min-width:361px) and (max-width:495px) {
+  .container {
+    max-width: 85%
+  }
+
+}
+
+@media (max-width: 360px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+
+@media (min-width: 426px) and (max-width: 630px) {
+  .m {
+    margin-top: -50px;
+  }
+}
+
+@media (min-width: 631px) and (max-width: 760px) {
+  .m {
+    margin-top: -140px;
+  }
+}
+
+@media (min-width: 762px) and (max-width: 1150px) {
+  .m {
+    margin-top: -100px;
+  }
+}
+
+@media (min-width: 1151px) and (max-width: 1150px) {
+  .m {
+    margin-top: -100px;
+  }
+}
+
+@media (min-width: 1152px) and (max-width: 1450px) {
+  .m {
+    margin-top: -50px;
+  }
+}
